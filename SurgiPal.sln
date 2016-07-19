@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2FF32DB2-2E81-4423-9ACF-776607A9713C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1105D9BC-6FBC-4B47-8FC8-3B27B8EBF3E7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SurgiPal", "src\SurgiPal\SurgiPal.xproj", "{49CEEEE6-83FC-4128-A8D4-4205D597584E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49CEEEE6-83FC-4128-A8D4-4205D597584E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CEEEE6-83FC-4128-A8D4-4205D597584E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CEEEE6-83FC-4128-A8D4-4205D597584E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CEEEE6-83FC-4128-A8D4-4205D597584E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49CEEEE6-83FC-4128-A8D4-4205D597584E} = {2FF32DB2-2E81-4423-9ACF-776607A9713C}
+	EndGlobalSection
+EndGlobal
